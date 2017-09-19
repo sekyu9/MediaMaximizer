@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iidl:InteractionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004" xmlns:mpegvct="urn:mpeg:mpeg-v:2010:01-CT-NS" xmlns:iidl="urn:mpeg:mpeg-v:2010:01-IIDL-NS" xmlns:dcv="urn:mpeg:mpeg-v:2010:01-DCV-NS" xsi:schemaLocation="urn:mpeg:mpeg-v:2010:01-DCV-NS MPEG-V-DCV.xsd">
+	<iidl:DeviceCommandList>
+		
+		<iidl:DeviceCommand xsi:type="dcv:LightType" id="id" deviceIdRef="deviceIdRef" activate="true" color="firebrick" intensity="77">
+		</iidl:DeviceCommand>
+		
+		<iidl:DeviceCommand xsi:type="dcv:VibrationType" id="id" deviceIdRef="deviceIdRef" activate="true" intensity="5">
+		</iidl:DeviceCommand>
+	
+		<iidl:DeviceCommand xsi:type="dcv:SprayerType" id="id" deviceIdRef="deviceIdRef" activate="true" sprayingType="water" intensity="1">
+		</iidl:DeviceCommand>
+
+		<iidl:DeviceCommand xsi:type="dcv:SprayerType" id="id" deviceIdRef="deviceIdRef" activate="false" sprayingType="water" intensity="1">
+		</iidl:DeviceCommand>
+
+		<iidl:DeviceCommand xsi:type="dcv:SprayerType" id="id" deviceIdRef="deviceIdRef" activate="true" sprayingType="water" intensity="1">
+		</iidl:DeviceCommand>
+
+		<iidl:DeviceCommand xsi:type="dcv:SprayerType" id="id" deviceIdRef="deviceIdRef" activate="false" sprayingType="water" intensity="1">
+		</iidl:DeviceCommand>
+
+	</iidl:DeviceCommandList>
+</iidl:InteractionInfo>

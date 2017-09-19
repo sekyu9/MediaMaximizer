@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SEM xmlns:ns2="urn:mpeg:mpeg-v:2010:01-SEDL-NS" xmlns:ns1="urn:mpeg:mpeg7:schema:2004" xmlns:ns3="urn:mpeg:mpeg-v:2010:01-SEV-NS" xmlns:ns4="urn:mpeg:mpeg-v:2010:01-CT-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:si="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS" si:puMode="ancestorsDescendants" si:absTimeScheme="mp7t" si:timeScale="1" xsi:schemaLocation="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-21_schema_files/dia-2nd/XSI-2nd.xsd urn:mpeg:mpeg-v:2010:01-SEV-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-V_schema_files/MPEG-V-SEV.xsd urn:mpeg:mpeg7:schema:2004 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-7_schema_files/mpeg7-v2.xsd">
+<DescriptionMetadata>
+<ClassificationSchemeAlias href="urn:mpeg:mpeg-v:01-SI-ColorCS-NS" alias="COLOR"/>
+</DescriptionMetadata>
+	<GroupOfEffects xmlns:si="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS" si:pts="5" >
+	<Effect xsi:type="sev:VibrationType" activate="true" intensity-value="90" intensity-range="0.0 100.0"/>
+	<Effect xsi:type="sev:LightType" activate="true" color="Green" intensity-value="50" intensity-range="0.0 100.0"/>
+	<Effect xsi:type="sev:WindType" activate="true" intensity-value="50" intensity-range="0.0 100.0"/>
+	</GroupOfEffects>
+
+	<GroupOfEffects xmlns:si="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS" si:pts="9" >
+	<Effect xsi:type="sev:VibrationType" activate="false" intensity-value="90" intensity-range="0.0 100.0"/>
+	<Effect xsi:type="sev:LightType" activate="false" color="Green" intensity-value="50" intensity-range="0.0 100.0"/>
+	<Effect xsi:type="sev:WindType" activate="false" intensity-value="50" intensity-range="0.0 100.0"/>
+	</GroupOfEffects>
+
+	<Effect xsi:type="sev:SprayingType" intensity-value="1.0" intensity-range="0.0 10.0" duration="10" sprayingType="urn:mpeg:mpeg-v:01-SI-SprayingTypeCS-NS:water" si:pts="10"/>
+
+	<Effect xsi:type="sev:SprayingType" intensity-value="1.0" intensity-range="0.0 10.0" duration="0" sprayingType="urn:mpeg:mpeg-v:01-SI-SprayingTypeCS-NS:water" si:pts="20"/>
+
+	<Effect xsi:type="sev:SprayingType" intensity-value="1.0" intensity-range="0.0 10.0" duration="10" sprayingType="urn:mpeg:mpeg-v:01-SI-SprayingTypeCS-NS:water" si:pts="30"/>
+
+	<Effect xsi:type="sev:SprayingType" intensity-value="1.0" intensity-range="0.0 10.0" duration="0" sprayingType="urn:mpeg:mpeg-v:01-SI-SprayingTypeCS-NS:water" si:pts="40"/>
+
+</SEM>

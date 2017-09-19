@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cidl:ControlInfo xsi:schemaLocation="urn:mpeg:mpeg-v:2010:01-CIDL-NS MPEG-V-CIDL.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cidl="urn:mpeg:mpeg-v:2010:01-CIDL-NS" xmlns:dcdv="urn:mpeg:mpeg-v:2010:01-DCDV-NS" xmlns:scdv="urn:mpeg:mpeg-v:2010:01-SCDV-NS" xmlns:sepv="urn:mpeg:mpeg-v:2010:01-SEPV-NS" xmlns:sapv="urn:mpeg:mpeg-v:2010:01-SAPV-NS" xmlns:mpegvct="urn:mpeg:mpeg-v:2010:01-CT-NS">
+  <!-- ===============================================================
+ ========================SensoryDeviceCapabilityList (DCDV)================
+ =============================================================== -->
+  <cidl:SensoryDeviceCapabilityList>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:LightCapabilityType" id="light1" unit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:lux" maxIntensity="300" numOfLightLevels="10" locator="urn:mpeg:mpeg-v:01-SI-LocationCS-NS:right">
+      <dcdv:Color>urn:mpeg:mpeg-v:01-SI-ColorCS-NS:white</dcdv:Color>
+      <dcdv:Color>
+        urn:mpeg:mpeg-v:01-SI-ColorCS-NS:red
+      </dcdv:Color>
+      <dcdv:Color>
+        urn:mpeg:mpeg-v:01-SI-ColorCS-NS:blue
+      </dcdv:Color>
+      <dcdv:Color>
+        urn:mpeg:mpeg-v:01-SI-ColorCS-NS:green
+      </dcdv:Color>
+    </cidl:SensoryDeviceCapability>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:FlashCapabilityType" id="flash1" maxFrequency="50" numOfFreqLevels="10" unit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:lux" maxIntensity="300" numOfLightLevels="10" locator="urn:mpeg:mpeg-v:01-SI-LocationCS-NS:left"/>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:HeatingCapabilityType" id="heater1" zerothOrderDelayTime="10" firstOrderDelayTime="20" maxIntensity="40" minIntensity="20" numOfLevels="40" locator="urn:mpeg:mpeg-v:01-SI-LocationCS-NS:left"/>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:CoolingCapabilityType" id="cooler1" zerothOrderDelayTime="10" firstOrderDelayTime="30" maxIntensity="15" minIntensity="30" numOfLevels="30" locator="urn:mpeg:mpeg-v:01-SI-LocationCS-NS:right"/>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:WindCapabilityType" id="fan01" zerothOrderDelayTime="10" firstOrderDelayTime="10" maxWindSpeed="60" numOfLevels="5" locator="urn:mpeg:mpeg-v:01-SI-
+	LocationCS-NS:center"/>    
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:VibrationCapabilityType" id="vib001" zerothOrderDelayTime="0" firstOrderDelayTime="10" maxIntensity="60" numOfLevels="5" locator="urn:mpeg:mpeg-v:01-SI-
+	LocationCS-NS:center"/>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:ScentCapabilityType" id="scent01" maxIntensity="5" numOfLevels="2" locator="urn:mpeg:mpeg-v:01-
+		SI-LocationCS-NS:center">
+      <dcdv:Scent>urn:mpeg:mpeg-v:01-SI-ScentCS-NS:orange</dcdv:Scent>
+    </cidl:SensoryDeviceCapability>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:FogCapabilityType" id="fog11" zerothOrderDelayTime="30" firstOrderDelayTime="100" maxIntensity="100" numOfLevels="5" locator="urn:mpeg:mpeg-v:01-SI-LocationCS-NS:back"/>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:SprayerCapabilityType" id="spryr00" sprayingType="urn:mpeg:mpeg-v:01-SI-SprayingTypeCS-NS:water" zerothOrderDelayTime="5" firstOrderDelayTime="5" maxIntensity="10" numOfLevels="3" locator="urn:mpeg:mpeg-v:01-SI-LocationCS-NS:midway"/>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:ColorCorrectionCapabilityType" flag="true" id="tv1"/>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:TactileCapabilityType" intensityUnit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:celsius" maxValue="34" minValue="16" arraysizeX="10" arraysizeY="4" gapX="5" gapY="5" maxUpdateRate="10" actuatorType="urn:mpeg:mpeg-v:01-CI-TactileDisplayCS-
+		NS:thermal" numOfLevels="8"/>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:KinestheticCapabilityType" forceUnit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:Newton" torqueUnit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:Nmm" stiffnessUnit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:Npmm" numOfForceLevels="100" numOfTorqueLevels="100" numOfStiffnessLevels="100">
+      <dcdv:MaximumForce>
+        <mpegvct:X>3.3</mpegvct:X>
+        <mpegvct:Y>2.1</mpegvct:Y>
+        <mpegvct:Z>2.7</mpegvct:Z>
+      </dcdv:MaximumForce>
+      <dcdv:MaximumTorque>
+        <mpegvct:X>1.0</mpegvct:X>
+        <mpegvct:Y>1.0</mpegvct:Y>
+        <mpegvct:Z>-1.0</mpegvct:Z>
+      </dcdv:MaximumTorque>
+      <dcdv:MaximumStiffness>
+        <mpegvct:X>1.0</mpegvct:X>
+        <mpegvct:Y>1.0</mpegvct:Y>
+        <mpegvct:Z>-1.0</mpegvct:Z>
+      </dcdv:MaximumStiffness>
+      <dcdv:DOF>
+        <dcdv:Tx>true</dcdv:Tx>
+        <dcdv:Ty>true</dcdv:Ty>
+        <dcdv:Tz>true</dcdv:Tz>
+        <dcdv:Rx>false</dcdv:Rx>
+        <dcdv:Ry>false</dcdv:Ry>
+        <dcdv:Rz>false</dcdv:Rz>
+      </dcdv:DOF>
+      <dcdv:WorkSpace>
+        <dcdv:Width>180</dcdv:Width>
+        <dcdv:Height>130</dcdv:Height>
+        <dcdv:Depth>80</dcdv:Depth>
+        <dcdv:RotationX>0</dcdv:RotationX>
+        <dcdv:RotationY>0</dcdv:RotationY>
+        <dcdv:RotationZ>0</dcdv:RotationZ>
+      </dcdv:WorkSpace>
+    </cidl:SensoryDeviceCapability>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:RigidBodyMotionCapabilityType">
+      <dcdv:MoveTowardCapability maxXAccel="1" maxXSpeed="10" maxXDistance="20" maxYAccel="1" maxYSpeed="10" maxYDistance="20" maxZAccel="0" maxZSpeed="0" maxZDistance="0" xAccelLevels="5" xDistanceLevels="20" xSpeedLevels="10" yAccelLevels="5" yDistanceLevels="20" ySpeedLevels="20" zAccelLevels="0" zDistanceLevels="0" zSpeedLevels="0"/>
+      <dcdv:InclineCapability maxPitchAccel="2" maxPitchAngle="180" maxPitchSpeed="10" maxYawAccel="2" maxYawAngle="90" maxYawSpeed="10" maxRollAccel="0" maxRollAngle="0" maxRollSpeed="0" pitchAccelLevels="1" pitchAngleLevels="1" pitchSpeedLevels="1" yawAccelLevels="1" yawAngleLevels="1" yawSpeedLevels="1" rollAccelLevels="0" rollAngleLevels="0" rollSpeedLevels="0"/>
+    </cidl:SensoryDeviceCapability>
+    <cidl:SensoryDeviceCapability xsi:type="dcdv:MobileDevicePositionCapabilityType" id="mobile1">
+      <dcdv:Boundary>
+        <dcdv:Longitude upperBound="132" lowerBound="127"/>
+        <dcdv:Latitude upperBound="45" lowerBound="32"/>
+        <dcdv:Altitude upperBound="1200" lowerBound="10" unit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:meter"/>
+      </dcdv:Boundary>
+    </cidl:SensoryDeviceCapability>
+  </cidl:SensoryDeviceCapabilityList>
+  <!-- ===============================================================
+ ========================UserSensoryPreference (SEPV)====================
+ =============================================================== -->
+  <cidl:UserSensoryPreferenceList>
+    <cidl:USPreference xsi:type="sepv:LightPrefType" activate="true" unit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:lux" maxIntensity="300">
+      <sepv:UnfavorableColor>
+        :mpeg:mpeg-v:01-SI-ColorCS-NS:alice_blue
+      </sepv:UnfavorableColor>
+    </cidl:USPreference>
+    <cidl:USPreference xsi:type="sepv:FlashPrefType" activate="true" maxFrequency="50" unit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:Hertz"/>
+    <cidl:USPreference xsi:type="sepv:HeatingPrefType" id="heater001" maxIntensity="50" minIntensity="20" adaptationMode="scalable" activate="true"/>
+    <cidl:USPreference xsi:type="sepv:CoolingPrefType" id="cooling001" maxIntensity="10" minIntensity="30" adaptationMode="scalable" activate="true"/>
+    <cidl:USPreference xsi:type="sepv:WindPrefType" id="wind01" maxIntensity="4" activate="true" adaptationMode="strict"/>
+    <cidl:USPreference xsi:type="sepv:VibrationPrefType" id="vibe02" maxIntensity="600" activate="true" adaptationMode="scalable"/>
+    <cidl:USPreference xsi:type="sepv:ScentPrefType" id="scent001" maxIntensity="4" adaptationMode="scalable">
+      <sepv:HedonicScent>
+        :mpeg:mpeg-v:01-SI-ScentCS-NS:rose
+      </sepv:HedonicScent>
+    </cidl:USPreference>
+    <cidl:USPreference xsi:type="sepv:FogPrefType" id="fogfog" maxIntensity="5" adaptationMode="scalable"/>
+    <cidl:USPreference xsi:type="sepv:SprayingPrefType" id="letspray" maxIntensity="4" sprayingType="urn:mpeg:mpeg-v:01-SI-SprayingTypeCS-
+	NS:water"/>
+    <cidl:USPreference xsi:type="sepv:ColorCorrectionPrefType" activate="true"/>
+    <cidl:USPreference xsi:type="sepv:TactilePrefType" maxTemperature="45" minTemperature="10" maxCurrent="30" maxVibration="0.1" tempUnit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:celsius" currentUnit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:milliampere" vibrationUnit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:millimeter"/>
+    <cidl:USPreference xsi:type="sepv:KinestheticPrefType" forceUnit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:Newton" torqueUnit="urn:mpeg:mpeg-v:01-CI-UnitTypeCS-NS:Nmm">
+      <sepv:MaxForce>
+        <mpegvct:X>5.0</mpegvct:X>
+        <mpegvct:Y>3.0</mpegvct:Y>
+        <mpegvct:Z>3.5</mpegvct:Z>
+      </sepv:MaxForce>
+    </cidl:USPreference>
+    <cidl:USPreference xsi:type="sepv:RigidBodyMotionPrefType">
+      <sepv:MotionPreference xsi:type="sepv:MoveTowardPreferenceType" unfavor="true"/>
+      <sepv:MotionPreference xsi:type="sepv:InclinePreferenceType" unfavor="false" maxRotationSpeed="10"/>
+      <sepv:MotionPreference xsi:type="sepv:WavePreferenceType" unfavor="false" maxWaveDistance="20" maxWaveSpeed="2"/>
+      <sepv:MotionPreference xsi:type="sepv:CollidePreferenceType" unfavor="true"/>
+      <sepv:MotionPreference xsi:type="sepv:ShakePreferenceType" unfavor="false" maxShakeDistance="20" maxShakeSpeed="5"/>
+      <sepv:MotionPreference xsi:type="sepv:SpinPreferenceType" unfavor="true"/>
+      <sepv:MotionPreference xsi:type="sepv:TurnPreferenceType" maxTurnSpeed="10"/>
+    </cidl:USPreference>
+  </cidl:UserSensoryPreferenceList>
+</cidl:ControlInfo>

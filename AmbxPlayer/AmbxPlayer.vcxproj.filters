@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{80f757a5-9825-40b8-955a-ea102d256066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\MPlayer">
+      <UniqueIdentifier>{75421598-0225-40a2-af08-5549b2a7a775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\MFC_Main">
+      <UniqueIdentifier>{7cdb3763-ff4f-4993-aed8-2776533eb898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine">
+      <UniqueIdentifier>{eef9329d-4111-4161-a161-5a6b7169c34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine\Engine">
+      <UniqueIdentifier>{2be28e9f-6734-4b67-889d-f9a267cf1c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine\Mpeg_v">
+      <UniqueIdentifier>{11b6b0bb-6793-4262-a511-563129dadc6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine\Mpeg_v\CIDL">
+      <UniqueIdentifier>{c5d3a32e-6363-4784-8dd6-4af588f25b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine\Mpeg_v\CT">
+      <UniqueIdentifier>{1e47fffd-e204-4cb5-834a-f3c219191f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine\Mpeg_v\IIDL">
+      <UniqueIdentifier>{1bde2c16-b1e6-4160-bf92-7cea9804c654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine\Mpeg_v\ParsingHelper">
+      <UniqueIdentifier>{979a8413-c947-489f-a8fc-e668ae8007bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine\Mpeg_v\SEM">
+      <UniqueIdentifier>{5d7aa698-32cd-40dc-b912-355d42c55cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine\Mpeg_v\CIDL\DCDV">
+      <UniqueIdentifier>{1183f78b-8ae5-459c-9472-ade496a64927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine\Mpeg_v\IIDL\DCV">
+      <UniqueIdentifier>{8feb9fed-1ac8-4c15-a8a5-afaaf14f76e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine\Mpeg_v\SEM\SEV">
+      <UniqueIdentifier>{9f8bf8b6-41e3-4324-89ed-c577af0183ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Header">
+      <UniqueIdentifier>{cdeb25e0-abd6-49fb-8228-9b906d6f4054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXEngine\Header">
+      <UniqueIdentifier>{6a56d9f5-5519-456f-8d2c-16e756f00c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ambx">
+      <UniqueIdentifier>{7e66d1a9-9b27-44f2-89cf-caf616a01af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UDP">
+      <UniqueIdentifier>{bd38cdf3-db7f-4f02-9300-6a0eee4c4958}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\AmbxPlayer.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\AmbxPlayer.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="CIDLInstance.xml">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="IIDL.xml">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AmbxPlayer.h">
+      <Filter>Player\MFC_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="AmbxPlayerDlg.h">
+      <Filter>Player\MFC_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Player\MFC_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Player\MFC_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Player\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Ambx.h">
+      <Filter>Ambx</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>UXEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="extra.h">
+      <Filter>Player\MFC_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MPlayer.h">
+      <Filter>Player\MPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>UXEngine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CoolingCapabilityType.h">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashCapabilityType.h">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClInclude>
+    <ClInclude Include="FogCapabilityType.h">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClInclude>
+    <ClInclude Include="HeatingCapabilityType.h">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClInclude>
+    <ClInclude Include="LightCapabilityType.h">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClInclude>
+    <ClInclude Include="ScentCapabilityType.h">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClInclude>
+    <ClInclude Include="SprayerCapabilityType.h">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClInclude>
+    <ClInclude Include="VibrationCapabilityType.h">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClInclude>
+    <ClInclude Include="WindCapabilityType.h">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlInfoRootElement.h">
+      <Filter>UXEngine\Mpeg_v\CIDL</Filter>
+    </ClInclude>
+    <ClInclude Include="SensoryDeviceCapabilityBaseType.h">
+      <Filter>UXEngine\Mpeg_v\CIDL</Filter>
+    </ClInclude>
+    <ClInclude Include="ClockTickTimeType.h">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClInclude>
+    <ClInclude Include="ScentCS.h">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClInclude>
+    <ClInclude Include="SprayingCS.h">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeStampType.h">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClInclude>
+    <ClInclude Include="CoolingCommandType.h">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashCommandType.h">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClInclude>
+    <ClInclude Include="FogCommandType.h">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClInclude>
+    <ClInclude Include="HeatingCommandType.h">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClInclude>
+    <ClInclude Include="LightCommandType.h">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClInclude>
+    <ClInclude Include="ScentCommandType.h">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClInclude>
+    <ClInclude Include="SprayerCommandType.h">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClInclude>
+    <ClInclude Include="VibrationCommandType.h">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClInclude>
+    <ClInclude Include="WindCommandType.h">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceCommandBaseType.h">
+      <Filter>UXEngine\Mpeg_v\IIDL</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractionInfoRootElement.h">
+      <Filter>UXEngine\Mpeg_v\IIDL</Filter>
+    </ClInclude>
+    <ClInclude Include="ParsingHelper.h">
+      <Filter>UXEngine\Mpeg_v\ParsingHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="DeclarationsElement.h">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClInclude>
+    <ClInclude Include="DescriptionMetadataElement.h">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectBaseType.h">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupOfEffectsElement.h">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceEffectElement.h">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClInclude>
+    <ClInclude Include="SEMRootElement.h">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementBaseType.h">
+      <Filter>UXEngine\Mpeg_v</Filter>
+    </ClInclude>
+    <ClInclude Include="UXSAXHandler.h">
+      <Filter>UXEngine\Mpeg_v</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashType.h">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClInclude>
+    <ClInclude Include="FogType.h">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClInclude>
+    <ClInclude Include="LightType.h">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClInclude>
+    <ClInclude Include="ScentType.h">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClInclude>
+    <ClInclude Include="SprayingType.h">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClInclude>
+    <ClInclude Include="TemperatureType.h">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClInclude>
+    <ClInclude Include="VibrationType.h">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClInclude>
+    <ClInclude Include="WindType.h">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorType.h">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorCS.h">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AmbxPlayer.cpp">
+      <Filter>Player\MFC_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="AmbxPlayerDlg.cpp">
+      <Filter>Player\MFC_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Player\MFC_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Ambx.cpp">
+      <Filter>Ambx</Filter>
+    </ClCompile>
+    <ClCompile Include="MPlayer.cpp">
+      <Filter>Player\MPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>UXEngine\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CoolingCapabilityType.cpp">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashCapabilityType.cpp">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClCompile>
+    <ClCompile Include="FogCapabilityType.cpp">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClCompile>
+    <ClCompile Include="HeatingCapabilityType.cpp">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClCompile>
+    <ClCompile Include="LightCapabilityType.cpp">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClCompile>
+    <ClCompile Include="ScentCapabilityType.cpp">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClCompile>
+    <ClCompile Include="SprayerCapabilityType.cpp">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClCompile>
+    <ClCompile Include="VibrationCapabilityType.cpp">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClCompile>
+    <ClCompile Include="WindCapabilityType.cpp">
+      <Filter>UXEngine\Mpeg_v\CIDL\DCDV</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlInfoRootElement.cpp">
+      <Filter>UXEngine\Mpeg_v\CIDL</Filter>
+    </ClCompile>
+    <ClCompile Include="SensoryDeviceCapabilityBaseType.cpp">
+      <Filter>UXEngine\Mpeg_v\CIDL</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockTickTimeType.cpp">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClCompile>
+    <ClCompile Include="ScentCS.cpp">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClCompile>
+    <ClCompile Include="SprayingCS.cpp">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeStampType.cpp">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClCompile>
+    <ClCompile Include="CoolingCommandType.cpp">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashCommandType.cpp">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClCompile>
+    <ClCompile Include="FogCommandType.cpp">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClCompile>
+    <ClCompile Include="HeatingCommandType.cpp">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClCompile>
+    <ClCompile Include="LightCommandType.cpp">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClCompile>
+    <ClCompile Include="ScentCommandType.cpp">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClCompile>
+    <ClCompile Include="SprayerCommandType.cpp">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClCompile>
+    <ClCompile Include="VibrationCommandType.cpp">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClCompile>
+    <ClCompile Include="WindCommandType.cpp">
+      <Filter>UXEngine\Mpeg_v\IIDL\DCV</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceCommandBaseType.cpp">
+      <Filter>UXEngine\Mpeg_v\IIDL</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractionInfoRootElement.cpp">
+      <Filter>UXEngine\Mpeg_v\IIDL</Filter>
+    </ClCompile>
+    <ClCompile Include="ParsingHelper.cpp">
+      <Filter>UXEngine\Mpeg_v\ParsingHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="DeclarationsElement.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClCompile>
+    <ClCompile Include="DescriptionMetadataElement.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBaseType.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupOfEffectsElement.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceEffectElement.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClCompile>
+    <ClCompile Include="SEMRootElement.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementBaseType.cpp">
+      <Filter>UXEngine\Mpeg_v</Filter>
+    </ClCompile>
+    <ClCompile Include="UXSaxHandler.cpp">
+      <Filter>UXEngine\Mpeg_v</Filter>
+    </ClCompile>
+    <ClCompile Include="FogType.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClCompile>
+    <ClCompile Include="LightType.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ScentType.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClCompile>
+    <ClCompile Include="SprayingType.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClCompile>
+    <ClCompile Include="TemperatureType.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClCompile>
+    <ClCompile Include="VibrationType.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClCompile>
+    <ClCompile Include="WindType.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>UXEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashType.cpp">
+      <Filter>UXEngine\Mpeg_v\SEM\SEV</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorCS.cpp">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorType.cpp">
+      <Filter>UXEngine\Mpeg_v\CT</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AmbxPlayer.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
